@@ -14,13 +14,12 @@
 <style scoped>
 
 body {
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: linear-gradient(135deg, #37474f, #263238);
   font-family: 'Arial', sans-serif;
   color: #fff;
   margin: 0;
   padding: 0;
 }
-
 
 .main-container {
   display: flex;

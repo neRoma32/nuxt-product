@@ -6,14 +6,14 @@
       <input
           v-model="searchQuery"
           type="text"
-          placeholder="🔍 Пошук за назвою, брендом, категорією, описом, ціною або оцінкою..."
+          placeholder=" Пошук..."
           class="search-input"
       />
     </div>
 
     <!-- Кнопка для повернення на головну -->
     <NuxtLink to="/" class="back-button">
-      ⬅ Назад до головної сторінки
+      ⬅ На головну
     </NuxtLink>
 
     <table class="product-table">
@@ -150,12 +150,13 @@ const sortBy = (key) => {
 
 <style scoped>
 body {
-  background: linear-gradient(135deg, #00b4d8, #0077b6);
+  background: linear-gradient(135deg, #37474f, #263238);
   font-family: 'Arial', sans-serif;
   color: #fff;
   margin: 0;
   padding: 0;
 }
+
 
 .container {
   max-width: 1200px;
