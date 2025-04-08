@@ -2,7 +2,6 @@
   <div class="container">
     <h1 class="title">Список продуктів</h1>
 
-    <!-- Пошук -->
     <div class="search-container">
       <input
           v-model="searchQuery"
@@ -17,7 +16,6 @@
       ⬅ Назад до головної сторінки
     </NuxtLink>
 
-    <!-- Таблиця -->
     <table class="product-table">
       <thead>
       <tr>
@@ -47,7 +45,6 @@
       </tbody>
     </table>
 
-    <!-- Пагінація -->
     <div class="pagination">
       <button @click="prevPage" :disabled="page === 1">⬅ Назад</button>
       <span>Сторінка {{ page }} з {{ totalPages }}</span>
@@ -152,7 +149,6 @@ const sortBy = (key) => {
 </script>
 
 <style scoped>
-/* Глобальний фон */
 body {
   background: linear-gradient(135deg, #00b4d8, #0077b6);
   font-family: 'Arial', sans-serif;
@@ -161,7 +157,6 @@ body {
   padding: 0;
 }
 
-/* Контейнер для контенту */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -179,10 +174,10 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* Кнопка "Назад" */
+
 .back-button {
   display: block;
-  width: fit-content; /* Автоматична ширина для кнопки */
+  width: fit-content;
   padding: 10px 20px;
   background-color: #0077b6;
   color: white;
@@ -202,7 +197,6 @@ body {
 }
 
 
-/* Пошукове поле */
 .search-container {
   display: flex;
   justify-content: center;
@@ -226,7 +220,6 @@ body {
   outline: none;
 }
 
-/* Стиль для таблиці */
 .product-table {
   width: 100%;
   border-collapse: collapse;

@@ -8,11 +8,11 @@
 </template>
 
 <script setup>
-// Нічого змінювати тут
+
 </script>
 
 <style scoped>
-/* Глобальний фон */
+
 body {
   background: linear-gradient(135deg, #6a11cb, #2575fc);
   font-family: 'Arial', sans-serif;
@@ -21,7 +21,7 @@ body {
   padding: 0;
 }
 
-/* Контейнер для головної сторінки */
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@ body {
   padding: 0 20px;
 }
 
-/* Заголовок */
+
 .main-title {
   font-size: 3rem;
   font-weight: bold;
@@ -41,7 +41,6 @@ body {
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Кнопка */
 .main-button {
   font-size: 1.8rem;
   font-weight: bold;
